@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../public/Gilroy-SemiBold.ttf');
+}
+
+
+.content{
+  padding: 20px;
+  margin-top: -40px ;
+}
+
+.navbar{
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Gilroy';
+  color: black;
+  list-style: none;
+}
+
+.navbarLinks{
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.herobanner{
+  padding: 100px;
+  background: url("./bg.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.herobanner h1{
+  font-family: 'Gilroy';
+  font-size: 7.5vw;
+  color: #fff;
+  display: inline-block;
+  animation: titleFadeIn 1.3s ease-in-out forwards;
+}
+
+.herobanner p{
+  font-family: 'Gilroy';
+  font-size: 1.5vw;
+  color: #fff;
+  display: inline-block;
+}
+
+.button{
+  padding: 20px 20px;
+  width: 200px;
+  background: #fff;
+  text-align: center;
+  border: none;
+  color: #000;
+  font-size: 1.1vw;
+  border-radius: 20px;
+  font-family: 'Gilroy';
+  cursor: pointer;
+}
+
+
+
+
+@keyframes titleFadeIn{
+  0%{
+      opacity: 0;
+      transform: translateY(20%);
+  }
+  100%{
+      opacity: 1;
+      transform: translateY(0);
+  }
+}

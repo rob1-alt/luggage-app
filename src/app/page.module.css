@@ -77,3 +77,28 @@
       transform: translateY(0);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .navbarLinks {
+    width: 50%; /* Ajuste la largeur des liens de la barre de navigation */
+  }
+
+  .herobanner {
+    padding: 30px; /* Ajuste la taille du padding pour les écrans plus petits */
+  }
+
+  .herobanner h1 {
+    font-size: 5vw; /* Ajuste la taille de la police pour les écrans plus petits */
+  }
+
+  .herobanner p {
+    font-size: 1.2vw; /* Ajuste la taille de la police pour les écrans plus petits */
+  }
+
+  .button {
+    padding: 10px 15px; /* Ajuste la taille du padding pour les écrans plus petits */
+    width: 120px; /* Ajuste la taille du bouton pour les écrans plus petits */
+    font-size: 0.9vw; /* Ajuste la taille de la police pour les écrans plus petits */
+    border-radius: 10px; /* Ajuste le rayon de la bordure pour les écrans plus petits */
+  }
+}

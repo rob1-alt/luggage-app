@@ -3,10 +3,16 @@ import styles from "./page.module.css";
 import logo from "./lugaggeLogo.svg";
 import hero from "./bg.svg";
 import Link from "next/link";
+import Head from "next/head";
 
 export default function Home() {
   return (
+
     <div className={styles.container}>
+          <head>
+          <title>Luggage</title>
+          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+          </head>
       <div className={styles.navbar}>
         <Image  
           src={logo}

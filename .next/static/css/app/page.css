@@ -1,0 +1,107 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: 'Gilroy';
+  src: url(/_next/static/media/Gilroy-SemiBold.0560c261.ttf);
+}
+
+
+.page_content__kDoxQ{
+  padding: 20px;
+  margin-top: -40px ;
+}
+
+.page_navbar__chktt{
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Gilroy';
+  color: black;
+  list-style: none;
+}
+
+.page_navbarLinks__NSRKW{
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.page_herobanner__plOh9{
+  padding: 100px;
+  background: url(/_next/static/media/bg.2d0aae57.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page_herobanner__plOh9 h1{
+  font-family: 'Gilroy';
+  font-size: 7.5vw;
+  color: #fff;
+  display: inline-block;
+  animation: page_titleFadeIn__YRvE_ 1.3s ease-in-out forwards;
+}
+
+.page_herobanner__plOh9 p{
+  font-family: 'Gilroy';
+  font-size: 1.5vw;
+  color: #fff;
+  display: inline-block;
+}
+
+.page_button__vnlhW{
+  padding: 20px 20px;
+  width: 200px;
+  background: #fff;
+  text-align: center;
+  border: none;
+  color: #000;
+  font-size: 1.1vw;
+  border-radius: 20px;
+  font-family: 'Gilroy';
+  cursor: pointer;
+}
+
+
+
+
+@keyframes page_titleFadeIn__YRvE_{
+  0%{
+      opacity: 0;
+      transform: translateY(20%);
+  }
+  100%{
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page_navbarLinks__NSRKW {
+    width: 50%; /* Ajuste la largeur des liens de la barre de navigation */
+  }
+
+  .page_herobanner__plOh9 {
+    padding: 30px; /* Ajuste la taille du padding pour les écrans plus petits */
+  }
+
+  .page_herobanner__plOh9 h1 {
+    font-size: 5vw; /* Ajuste la taille de la police pour les écrans plus petits */
+  }
+
+  .page_herobanner__plOh9 p {
+    font-size: 1.2vw; /* Ajuste la taille de la police pour les écrans plus petits */
+  }
+
+  .page_button__vnlhW {
+    padding: 10px 15px; /* Ajuste la taille du padding pour les écrans plus petits */
+    width: 120px; /* Ajuste la taille du bouton pour les écrans plus petits */
+    font-size: 0.9vw; /* Ajuste la taille de la police pour les écrans plus petits */
+    border-radius: 10px; /* Ajuste le rayon de la bordure pour les écrans plus petits */
+  }
+}
